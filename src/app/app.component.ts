@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'stringinterpolation';
-}
+  title = 'String Interpolation Angular Project';
+  name = 'Indiana';
+  email = 'indiana@gmail.com';
+  contact = '1234567890'
+  public maths = 30;
+  public science= 20;
+  public english = 50;
+  public marathi= 40;
+  value = this.maths + this.science + this.english + this.marathi;
+  }
